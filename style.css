@@ -1,0 +1,53 @@
+/* @import url("reset.css");  4 - сбособ подключения стилей*/
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    outline: 1px solid red;
+    max-width: 800px;
+    margin: 40px auto;
+}
+main{text-align: center;}
+body{
+    background-color: rgba(0, 23, 255, 0.5);
+    /* background-color: rgb(8, 23, 155);
+    background-color: #00ff00;
+    background-color: #0f0;
+    background-color: green; */
+    }
+
+.box1{
+    width: 380px;
+    height: 380px;
+    background-color: rgb(129, 32, 32);
+    display: inline-block;
+    margin: 10px;
+    padding: 35px;
+    border: 3px solid green;
+    }
+.box2{
+    width: 380px;
+    height: 380px;
+    background-color: rgb(148, 138, 48);
+    display: inline-block;
+    margin: 10px;
+    padding: 35px;
+    border: 3px solid green;
+    /* overflow: hidden; */
+    /* margin: 25px 5px 50px 15px;
+    padding: 25px;
+    border: 5px solid green; */
+    }
+
+.footer{
+    height: 150px;
+    background: #000;
+    color: rgb(255, 255, 255);
+    }
